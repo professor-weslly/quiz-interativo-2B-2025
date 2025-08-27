@@ -7,3 +7,43 @@
     --cor-destaque: #546459;
     --cor-texto: #eeffd7;
 }
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal {
+    background-color: var(--cor-principal);
+    width: 90px;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, .caixa-perguntas, .caixa-resultado {
+    font-family: 'Chakra Petch' sans-serif;
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
+
+.caixa-alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixa-resultado {
+    display: none;
+}
+
+.caixa-resultado.mostrar {
+    display: block;
+}
