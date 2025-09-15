@@ -1,6 +1,6 @@
-const perguntas = [
+export const perguntas = [
     {
-        enunciado: "pergunta 1",  //a pergunta
+        enunciado: "Você prefere nike ou adidas?",  //a pergunta
         alternativas: [
             {
                 texto: "nike", //primeira alternativa
@@ -8,6 +8,7 @@ const perguntas = [
                     "você tem bom gosto", //comentário para a resposta
                     "afirmação 2"        //segundo comentário
                 ],
+                proxima: 1,
             },
             {
                 texto: "adidas",
@@ -15,6 +16,7 @@ const perguntas = [
                     "você é vaiado",
                     "você não sabe escolher"
                 ],
+                proxima: 1,
             }
         ]
     },
@@ -27,6 +29,7 @@ const perguntas = [
                     "você tem bom gosto",
                     "afirmação 2"
                 ],
+                proxima: 2,
             },
             {
                 texto: "adidas",
@@ -34,6 +37,7 @@ const perguntas = [
                     "você é vaiado",
                     "você não sabe escolher"
                 ],
+                proxima: 2,
             }
         ]
     },
@@ -46,6 +50,7 @@ const perguntas = [
                     "você tem bom gosto",
                     "afirmação 2"
                 ],
+                proxima: 3,
             },
             {
                 texto: "adidas",
@@ -53,6 +58,7 @@ const perguntas = [
                     "você é vaiado",
                     "você não sabe escolher"
                 ],
+                proxima: 3,
             }
         ]
     },
@@ -65,6 +71,7 @@ const perguntas = [
                     "você tem bom gosto",
                     "afirmação 2"
                 ],
+                proxima: 4,
             },
             {
                 texto: "adidas",
@@ -72,6 +79,7 @@ const perguntas = [
                     "você é vaiado",
                     "você não sabe escolher"
                 ],
+                proxima: 4,
             }
         ]
     },
